@@ -1,0 +1,21 @@
+[gd_resource type="TileSet" load_steps=3 format=3 uid="uid://bjfw376ujbho4"]
+
+[ext_resource type="Texture2D" uid="uid://bgc82y2des317" path="res://assets/Tiles/Water_Middle.png" id="9_x1yyt"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_qqwqu"]
+texture = ExtResource("9_x1yyt")
+0:0/0 = 0
+
+[resource]
+terrain_set_0/mode = 0
+terrain_set_0/terrain_0/name = "ground 0"
+terrain_set_0/terrain_0/color = Color(0.681077, 0.0694568, 0.410251, 1)
+terrain_set_0/terrain_1/name = "grass-path"
+terrain_set_0/terrain_1/color = Color(0.775136, 0.00740886, 0.534561, 1)
+terrain_set_0/terrain_2/name = "grass-blocks"
+terrain_set_0/terrain_2/color = Color(0.235294, 0, 0.788235, 1)
+terrain_set_0/terrain_3/name = "grass-island"
+terrain_set_0/terrain_3/color = Color(0, 0, 0, 1)
+terrain_set_0/terrain_4/name = "farmland"
+terrain_set_0/terrain_4/color = Color(9.62615e-07, 0.472581, 0.254259, 1)
+sources/16 = SubResource("TileSetAtlasSource_qqwqu")
